@@ -75,3 +75,15 @@ deploy:
   repo: git@104.224.177.184:blog.git
   branch: master
 
+math:
+  engine: 'katex'
+  mathjax:
+    src: custom_mathjax_source
+    config:
+      # MathJax config
+  katex:
+    css: custom_css_source
+    js: custom_js_source
+    config:
+      # KaTex config
+    
